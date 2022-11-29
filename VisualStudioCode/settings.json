@@ -37,10 +37,19 @@
         "editor.insertSpaces": true,
         "editor.detectIndentation": false
     },
+    "[python]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true
+    },
     "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": false,
     "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false
     },
     "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.formatOnSave": true,
@@ -49,5 +58,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.useEditorConfig": false,
     "javascript.format.semicolons": "insert",
-    "typescript.format.semicolons": "insert"
+    "typescript.format.semicolons": "insert",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+        "editor.tabSize": 4
+    },
+    "intelephense.files.maxSize": 3000000
 }
